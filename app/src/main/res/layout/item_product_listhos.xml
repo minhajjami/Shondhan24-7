@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/DmcText"
+        android:text="DMC"
+        android:textSize="40dp"
+        android:textColor="#00a7f5"
+
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/DmcCall"
+        android:text="Call"
+        android:textSize="20dp"
+        android:layout_below="@id/DmcText"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/DmcMap"
+        android:text="View Map"
+        android:textSize="20dp"
+        android:layout_below="@id/DmcText"
+        android:layout_alignBaseline="@id/DmcCall"
+        android:layout_toRightOf="@id/DmcCall"
+        />
+
+</RelativeLayout>

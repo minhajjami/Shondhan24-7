@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e4ef"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.auvik.shondhan247.MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/policebtn"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/police"
+
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/firebtn"
+        android:layout_marginTop="90dp"
+        android:layout_alignBottom="@id/policebtn"
+        android:layout_toRightOf="@id/policebtn"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/fire"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:layout_below="@id/policebtn"
+        android:layout_marginLeft="76dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Service"
+        android:layout_below="@id/firebtn"
+        android:layout_marginLeft="193dp"
+    />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hosbtn"
+        android:layout_marginTop="230dp"
+        android:layout_alignLeft="@id/policebtn"
+        android:background="@drawable/hospital1"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/bloodbtn"
+        android:layout_marginTop="230dp"
+        android:layout_alignLeft="@id/firebtn"
+        android:background="@drawable/blood"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:layout_below="@id/hosbtn"
+        android:layout_marginLeft="76dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Bank"
+        android:layout_below="@id/bloodbtn"
+        android:layout_marginLeft="193dp"
+        />
+</RelativeLayout>
